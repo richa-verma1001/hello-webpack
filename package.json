@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode development",
-    "production": "webpack --mode production"
+    "production": "webpack --mode production",
+    "start:dev": "webpack-dev-server --mode production --inline 'false'"
   },
   "keywords": [
     "webpack",
@@ -15,6 +16,7 @@
   "license": "ISC",
   "devDependencies": {
     "webpack": "^4.28.4",
-    "webpack-cli": "^3.2.1"
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
   }
 }
