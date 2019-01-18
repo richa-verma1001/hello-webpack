@@ -1,9 +1,7 @@
 language: node_js
 node_js:
     -"8"
-before_install:
-  - npm i -g npm@8.11.3
-Install:
+install:
   - npm install
 script:
   - npm build
