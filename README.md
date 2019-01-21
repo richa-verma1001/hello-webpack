@@ -11,7 +11,7 @@ A hello webpack very basic tutorial with webpack-dev-server included to act as a
 ````
 npm install
 npm run build  OR
-npm run production
+npm run start:production
 
 ````
 The command below starts the webpack-dev-server and renders index.html in browser
